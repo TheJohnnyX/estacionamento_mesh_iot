@@ -10,4 +10,11 @@ Essas informações serão então processadas por um algoritmo em python que ir�
 Dessa forma, será utilizado o XAMPP para que seja disponibilizado de forma visual em uma página WEB as informações referentes a todas as vagas contidas no banco de dados. O XAMPP utiliza como servidor localhost o Apache e, na camada HTML/CSS/JAVASCRIPT utiliza PHP.
 
 # Preparação de ambiente
-## teste
+## Arduino
+Para rodar o código de Arduino, basta baixar o arquivo "Algoritmo Arduino" e executá-lo na sua IDE de preferência. A utilizada para validar o projeto foi a ARDUINO IDE.
+
+## Python
+Para executar o código de Python, basta baixar o arquivo "Algoritmo Python" e executar na sua IDE de preferência. A utilizada para validar o projeto foi a plataforma Jupyter Notebook.
+
+## PHP
+Para executar o código de PHP, é necessário primeiramente instalar o XAMPP. Ao executar o instalador, todas as dependências e configurações serão ajustadas na máquina. Após instalado, baixar o arquivo "Algoritmo PHP" e inserir dentro do diretório do XAMPP, na pasta "HTDOCS". Após isso, é apenas necessário subir o servidor "Apache" e "MySQL" clicando no botão "Start" referente ao servidor, no "XAMPP Control Panel". Dessa forma, o servidor já está disponível para utilização através da URL de localhost.
