@@ -18,3 +18,8 @@ Para executar o código de Python, basta baixar o arquivo "Algoritmo Python" e e
 
 ## PHP
 Para executar o código de PHP, é necessário primeiramente instalar o XAMPP. Ao executar o instalador, todas as dependências e configurações serão ajustadas na máquina. Após instalado, baixar o arquivo "Algoritmo PHP" e inserir dentro do diretório do XAMPP, na pasta "HTDOCS". Após isso, é apenas necessário subir o servidor "Apache" e "MySQL" clicando no botão "Start" referente ao servidor, no "XAMPP Control Panel". Dessa forma, o servidor já está disponível para utilização através da URL de localhost.
+
+# Prototipação
+Para que todas as camadas do projeto funcionem de forma integral e em tempo real, é necessário, após gravar o algoritmo do ESP32, garantir que a "serial monitor" esteja fechada na Arduino IDE, para que não deixa a porta COM ocupada.
+Na camada Python, garantir que o algoritmo esteja sendo executado.
+Na camada Web, garantir que os sevidor Apache e Mysql estejam em execução.
