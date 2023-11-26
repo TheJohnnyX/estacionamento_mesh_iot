@@ -11,7 +11,7 @@
 #define red_led 12
 #define green_led 13
 
-int node_number = 3; 
+int node_number = 1; 
 Ultrasonic ultrasonic(16, 14); //TRIG,ECHO
 
 Scheduler userScheduler; // to control your personal task
